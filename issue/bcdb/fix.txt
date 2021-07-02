@@ -1,0 +1,10 @@
+1. issue 1 (capture.png)
+	https://github.com/rust-lang/rustup/issues/686
+	please refer this 
+
+	https://stackoverflow.com/questions/44303915/no-default-toolchain-configured-after-installing-rustup
+2. issue 2 (bcdb_issue.png)
+	cause: no musl-gcc
+	fix:
+	refer:http://manpages.ubuntu.com/manpages/trusty/man1/musl-gcc.1.html 
+		
