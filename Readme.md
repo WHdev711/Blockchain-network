@@ -15,7 +15,7 @@ The kvstore application that we will create is installed at the same time as `ab
 
 ### How to create and use kvstore.
 
-The source code is defined [here](./kvstore).
+The source code is defined [here](./Kvstore).
 
 The kvstore is been running like this:
 
