@@ -7,4 +7,8 @@
 	cause: no musl-gcc
 	fix:
 	refer:http://manpages.ubuntu.com/manpages/trusty/man1/musl-gcc.1.html 
+
+3. port issue
+	185.69.166.247:3100
+	185.69.166.9:9900
 		
