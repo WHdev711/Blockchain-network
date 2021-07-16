@@ -83,7 +83,7 @@ application's socket server, send the given ABCI message, and wait for a
 response.
 
 
-***Note***
+*Note*
 
 This [web application]() will be integrated with kvstore for Tendermint Core application.
 
