@@ -1,7 +1,7 @@
 ## Install Tendermint
 Please see this tutorial : [tendermint](tendermint/Install.md)
 
-## Install ZOS
+## Create kvstore on top of tendermint.
 
-## Install BCDB
+### what is kvstore
 
