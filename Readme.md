@@ -85,7 +85,7 @@ response.
 
 #Note
 
-This [web application]() will be integrated with kvstore for Tendermint Core application.
+This [web application](./web application/) will be integrated with kvstore for Tendermint Core application.
 
 
 
