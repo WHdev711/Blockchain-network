@@ -45,6 +45,34 @@ and:
 -> data.hex: 7B2273697A65223A307D
 ```
 
+```sh
+abci-cli deliver_tx "kvstore_example"
+abci-cli commit
+abci-cli info
+```
+
+if then:
+
+```sh
+-> code: OK
+-> data: {"size":1}
+-> data.hex: 0x7B2273697A65223A317D
+```
+
+also:
+
+```sh
+abci-cli query "kvstore_example"
+```
+
+```sh
+-> code: OK
+-> log: exists
+-> height: 2
+-> value: kvstore_example
+-> value.hex: 615373
+```
+
 An ABCI application must provide two things:
 
 - a socket server
@@ -53,6 +81,12 @@ An ABCI application must provide two things:
 When we run the `abci-cli` tool we open a new connection to the
 application's socket server, send the given ABCI message, and wait for a
 response.
+
+
+***Note***
+
+This [web application]() will be integrated with kvstore for Tendermint Core application.
+
 
 
 
