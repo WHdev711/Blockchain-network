@@ -1,7 +1,7 @@
 GOCMD=go
 GOTEST=$(GOCMD) test
 GOVET=$(GOCMD) vet
-BINARY_NAME=gowt
+BINARY_NAME=kvstoretest
 VERSION?=0.0.1
 SERVICE_PORT?=8080
 DOCKER_REGISTRY?= #if set it should finished by /

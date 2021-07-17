@@ -1,6 +1,6 @@
-CREATE DATABASE gowtdb CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE DATABASE kvstoretest CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-USE gowtdb;
+USE kvstoretest;
 
 CREATE TABLE tools (
   id int(11) NOT NULL AUTO_INCREMENT,
